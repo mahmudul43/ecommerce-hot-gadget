@@ -1,0 +1,116 @@
+/*
+  Author:Mahmudul Hasan
+  Date:23.02.2020
+*/
+body{
+    font-family: 'Poppins';
+}
+.products{
+    margin-bottom:100px;
+}
+.nav-link{
+    color: #999999;
+}
+.carousel-item{
+    padding: 20px 40px;
+
+}
+.carousel-indicators li {
+
+	background-color: orange;
+
+}
+.price{
+    color: #FF136F;
+}
+.banner-text-description {
+	color: #A7A7A7;
+	padding-top: 15px;
+	width: 470px;
+	text-align: justify;
+}
+.buy-now-button {
+	background: #000;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	margin-top: 8px;
+	width: ;
+}
+#smartphone{
+    padding-top: 100px;
+}
+.see-all-link{
+    color: orange;
+}
+.center{
+    text-align: center;
+}
+.card{
+   padding: 50px;
+   border: none;
+   box-shadow: 5px 5px 10px lightgray;
+   border-radius: 10px;
+}
+.card-text{
+	color: #999999;
+	font-size: 12px;
+}
+.categories{
+	padding-bottom: 150px;
+}
+.category{
+	margin-top: 8%;
+}
+.category-header{
+	position: relative;
+
+}
+.category-header::after{
+	content: "";
+	width: 8%;
+	height: 7px;
+	position: absolute;
+	background-image: linear-gradient(orange,red);
+	bottom: -45%;
+	left:46%;
+	border-radius: 10px;
+	
+}
+.cat-first-block img {
+	background: #fff;
+	border: none;
+	box-shadow: 5px 5px 10px lightgray;
+	padding: 40px;
+	width: 200px;
+	height: 200px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 5px;
+}
+.cat-second-block img {
+	background: #fff;
+	border: none;
+	box-shadow: 5px 5px 10px lightgray;
+	padding: 40px;
+	width: 200px;
+	height: 200px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 5px;
+}
+
+}.cat-second-block {
+	margin-left: 15%;
+}
+
+.secondimage{
+	margin-top: 10%;
+}
+.cat-third-block img{
+
+}
+footer{
+	text-align: center;
+	color: #999999;
+}
